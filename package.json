@@ -5,6 +5,8 @@
   "description": "Ecommerce application built with the MERN stack",
   "main": "server.js",
   "scripts": {
+    "front:install": "npm install --force --prefix frontend",
+    "front:back": "npm install --force --prefix backend",
     "start": "node backend/server.js",
     "build": "npm run build --prefix frontend",
     "server": "nodemon backend/server.js",
